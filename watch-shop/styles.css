@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
 
-
-
 /* NAV BAR STUFF */  
 
 *{ 
@@ -54,11 +52,6 @@ nav {
  
 
 
-
-
-
-
-
 /* FADE IN & OUT TEXT */ 
 .test { 
     margin-top: 25px ; 
@@ -80,15 +73,11 @@ nav {
 }
 
 
-
-
 /* Firefox < 16 */
 @-moz-keyframes fadein { 
     from { opacity: 0 ; } 
     to { opacity: 1 ; }  
 }
-
-
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein { 
@@ -114,9 +103,6 @@ nav {
 
 
 /*  INTRO & WHY CHOOSE DIVS  */ 
-
-
-
 .introductions { 
     text-align: center; 
     margin-top: 200px ; 
@@ -149,8 +135,6 @@ nav {
     -o-animation: fadein 5s ; /* Opera */ 
     animation: fadein 5s;  
 }
-
-
 
 
 .intro2 { 
